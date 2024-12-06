@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DataBindingComponent } from './data-binding.component';
 import { PropertyBindingComponent } from './property-binding/property-binding.component';
 import { StyleBindingComponent } from './style-binding/style-binding.component';
+import { EventBindingComponent } from './event-binding/event-binding.component';
 
 
 
@@ -10,7 +11,8 @@ import { StyleBindingComponent } from './style-binding/style-binding.component';
   declarations: [
     DataBindingComponent,
     PropertyBindingComponent,
-    StyleBindingComponent
+    StyleBindingComponent,
+    EventBindingComponent
   ],
   imports: [
     CommonModule,
